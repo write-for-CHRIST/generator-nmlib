@@ -1,0 +1,42 @@
+{
+  "name": "@write-for-christ/genesis-starter",
+  "version": "0.0.1",
+  "description": "A simple node module starter.",
+  "main": "lib/library.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
+    "test:watch": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.0.1",
+    "babel-loader": "7.1.2",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-preset-es2015": "6.24.1",
+    "chai": "4.1.2",
+    "eslint": "4.10.0",
+    "eslint-loader": "1.9.0",
+    "mocha": "4.0.1",
+    "webpack": "3.8.1",
+    "yargs": "10.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/write-for-CHRIST/genesis-seed.git"
+  },
+  "keywords": [
+    "node",
+    "module",
+    "seed",
+    "starter"
+  ],
+  "author": "Nam Pham <nampdn@protonmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/write-for-CHRIST/genesis-seed/issues"
+  },
+  "homepage": "https://github.com/write-for-CHRIST/genesis-seed.git"
+}
