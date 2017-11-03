@@ -14,7 +14,7 @@
     "test":
       "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=text mocha test/*.spec.js",
     "test:watch":
-      "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js",
+      "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=text mocha -w test/*.spec.js",
     "cover":
       "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
