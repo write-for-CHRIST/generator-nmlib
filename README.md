@@ -6,6 +6,7 @@ A simple node module starter for browser and node.
 [![Coverage Status](https://coveralls.io/repos/github/write-for-CHRIST/genesis-seed/badge.svg?branch=master)](https://coveralls.io/github/write-for-CHRIST/genesis-seed?branch=master)
 [![David](https://david-dm.org/write-for-CHRIST/genesis-seed.svg)](https://david-dm.org/write-for-CHRIST/genesis-seed.svg)
 [![David](https://img.shields.io/david/dev/write-for-CHRIST/genesis-seed.svg)]()
+[![Greenkeeper badge](https://badges.greenkeeper.io/write-for-CHRIST/generator-gsnm.svg)](https://greenkeeper.io/)
 ## Features
 
 * Webpack 3 based.
