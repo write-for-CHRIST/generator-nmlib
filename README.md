@@ -1,5 +1,7 @@
 # @write-for-christ/genesis-seed
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/write-for-CHRIST/generator-gsnm.svg)](https://greenkeeper.io/)
+
 A simple node module starter for browser and node.
 
 [![Build Status](https://travis-ci.org/write-for-CHRIST/genesis-seed.svg?branch=master)](https://travis-ci.org/write-for-CHRIST/genesis-seed)
